@@ -1,0 +1,24 @@
+.Icon {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%) translateY(-1px);
+}
+.Icon .Icon-prev, .Icon .Icon-next {
+  background-color: rgba(81, 81, 81, 0.4);
+  color: rgba(134, 134, 139, 0.9);
+  font-weight: 400;
+  outline: none;
+  border: none;
+  transition: all ease 0.3s;
+}
+.Icon .Icon-prev:hover, .Icon .Icon-next:hover {
+  cursor: pointer;
+  background-color: rgba(210, 210, 215, 0.7);
+  transition: all ease 0.3s;
+}
+
+/*# sourceMappingURL=PageNav.css.map */
